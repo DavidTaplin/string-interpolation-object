@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'string-interpolation-object';
+  title = 'String Interpolation with an Object';
+
+  heading: string = 'User Post';
+
+  num: number = 1;
+
+
 }
